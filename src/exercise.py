@@ -3,9 +3,9 @@ def main():
     numbers = []
 
     while True:
-        number = input()
+        number = int(input())
 
-        if number == "-1":
+        if number == -1:
             break
 
         numbers.append(number)
